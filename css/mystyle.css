@@ -4,6 +4,7 @@
    margin: 20px 0px 0px 50px;
    padding: 20px;
    width: 960px;
+   height: auto;
    column-count: 2;
    column-gap: 50px;
    column-rule: 2px solid black;
@@ -18,6 +19,18 @@ h1 {
 h2 {
    font-family: 'Dancing Script', cursive;
    margin: 120px 10px 0px 50px;
+   text-shadow: 5px 5px 8px black;
+}
+
+h2#lessMargin {
+   font-family: 'Dancing Script', cursive;
+   margin: 30px 0px 0px 50px;
+   text-shadow: 5px 5px 8px black;
+}
+
+h3 {
+   font-family: 'Dancing Script', cursive;
+   margin: 0px 0px 0px 50px;
    text-shadow: 5px 5px 8px black;
 }
 
@@ -63,10 +76,19 @@ body {
    background-color: #4F578D;
 }
 
-.videos {
+#video1 {
    display: inline-block;
-   margin: 50px;
-   background-color: #583b6d;
+   margin: 25px;
+}
+
+#video2 {
+   display: inline-block;
+   margin: 25px;
+}
+
+#video3 {
+   display: inline-block;
+   margin: 25px;
 }
 
 footer {
