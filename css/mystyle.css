@@ -1,6 +1,6 @@
 #columnFormat {
-   border-style:solid;
-   border-width:2px;
+   border-style: solid;
+   border-width: 2px;
    margin: 20px 0px 0px 50px;
    padding: 20px;
    width: 960px;
@@ -11,27 +11,29 @@
 }
 
 h1 {
+   color: white;
    font-family: 'Dancing Script', cursive;
    text-align: center;
-   text-shadow: 5px 5px 8px black;
+   text-shadow: 5px 5px 10px black;
 }
 
 h2 {
+   color: white;
    font-family: 'Dancing Script', cursive;
    margin: 120px 10px 0px 50px;
-   text-shadow: 5px 5px 8px black;
+   text-shadow: 5px 5px 10px black;
 }
 
 h2#lessMargin {
    font-family: 'Dancing Script', cursive;
    margin: 30px 0px 0px 50px;
-   text-shadow: 5px 5px 8px black;
+   text-shadow: 5px 5px 10px black;
 }
 
 h3 {
    font-family: 'Dancing Script', cursive;
    margin: 0px 0px 0px 50px;
-   text-shadow: 5px 5px 8px black;
+   text-shadow: 5px 5px 10px black;
 }
 
 body {
@@ -76,19 +78,16 @@ body {
    background-color: #4F578D;
 }
 
-#video1 {
+.videos {
    display: inline-block;
    margin: 25px;
 }
 
-#video2 {
+.salsaClassIcon{
    display: inline-block;
-   margin: 25px;
-}
-
-#video3 {
-   display: inline-block;
-   margin: 25px;
+   height: auto;
+   width: auto;
+   margin: 50px;
 }
 
 footer {
