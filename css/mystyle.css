@@ -157,3 +157,28 @@ footer {
    text-align: center;
    text-shadow: 5px 5px 5px black;
 }
+
+/* ----------------------
+       MEDIA QUERY
+   ---------------------- */
+   
+@media (max-width : 600px) {
+   #columnFormat {
+      border-style: solid;
+      border-width: 2px;
+      margin: 20px 0px 0px 50px;
+      padding: 20px;
+      width: 300px;
+      height: auto;
+      column-count: 1;
+      column-gap: 50px;
+      column-rule: 2px solid black;
+   }
+   
+   table {
+      border: 2px solid black;
+      margin-left: 5px;
+      margin-top: 40px;
+      margin-bottom: 180px;
+   }
+}
