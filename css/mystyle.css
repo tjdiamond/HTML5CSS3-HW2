@@ -90,6 +90,61 @@ body {
    margin: 50px;
 }
 
+#colorChangeLabel {
+   color: white;
+   font-weight: bold;
+   font-size: 110%;
+   margin: 40px 0px 10px 50px;
+}
+
+#colorChangeInput {
+   margin-left: 50px;
+}
+
+table {
+   border: 2px solid black;
+   margin-left: 50px;
+   margin-top: 40px;
+   margin-bottom: 150px;
+} 
+
+td {
+   border: 2px solid black;
+   text-align:left;
+   padding:5px;
+   width: 160px;
+}
+
+td:first-child {
+    background-color: #89AD31;
+}
+
+td:nth-child(1) {
+   text-align: center;
+}
+
+td:nth-child(5) {
+   text-align: center;
+}
+
+tr {
+   color: white;
+}
+
+th {
+   background-color: #89AD31;
+   color: white;
+   border: 2px solid black;
+   height: 50px;
+   width: 160px;
+}
+
+#onlyWorksInChrome {
+   color: red;
+   font-weight: bold;
+   font-size: 110%;
+}
+
 footer {
    text-align: center;
    text-shadow: 5px 5px 5px black;
